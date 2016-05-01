@@ -1,10 +1,14 @@
 #display-container {
 	width: 500px;
     height: 700px;
-    margin: 100px;
+    float: left;
     border: 1px solid blue;
     position: relative;
     left: 20px;
+}
+
+#list-left {
+	float: left;
 }
 
 #list-top .list-image {
@@ -23,4 +27,8 @@
 
 ul {
 	list-style: none;
+}
+#display {
+	width: 500px;
+	height: auto;
 }
